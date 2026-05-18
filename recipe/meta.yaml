@@ -6,13 +6,13 @@ package:
   version: {{ version }}
 
 source:
-  - url: https://github.com/dtcenter/METplus/archive/refs/tags/v{{ version }}.tar.gz
-    md5: 3417e81dd0b3b08162d9da150c520aea
-    sha256: bdc8e1a1de2da8238ff54a22fdf707786cb0d9ebe365cfac49a8169435aab13d
+  - url: https://github.com/dtcenter/METplus/archive/refs/tags/v{{ version }}-beta2.tar.gz
+    md5: eefba0650f24f2852b3ab76a6e900255
+    sha256: dfdb365f8c1874ba5b03b12c79c8c75e715ee56ac8cb9083555b481e914b14db
 
-  - url: https://github.com/dtcenter/MET/archive/refs/tags/v{{ met_version }}.tar.gz
-    md5: 97535d38cf903635d7c011116f72611d
-    sha256: 8c3d426df4c9b932c1853518085f9f0d5fda0df076bb5adebc88901a828f308f
+  - url: https://github.com/dtcenter/MET/archive/refs/tags/v{{ met_version }}-beta2.tar.gz
+    md5: cb5d6736afac842cd256bb95dac9497e
+    sha256: 47982f5dbaf992b1d56bc517c0d05630906112ef86f7d189e835418ddbc182e9
     folder: MET
     patches:
       - met_regex.patch
