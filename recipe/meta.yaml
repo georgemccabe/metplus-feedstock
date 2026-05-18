@@ -47,8 +47,6 @@ requirements:
     - gsl
     - netcdf-cxx4
     - zlib
-    - cairo
-    - freetype
     - nceplibs-bufr
     - nceplibs-g2c
     - metview ==5.26.2
